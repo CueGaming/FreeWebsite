@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.SITE_URL || 'https://forzamods.dev',
+  siteUrl: process.env.SITE_URL || 'https://cuesforzahacks.dev',
   generateRobotsTxt: true,
   additionalPaths: async (config) => [
     await config.transform(config, '/tools/aio'),
